@@ -1,0 +1,86 @@
+### 회사 추가
+POST http://localhost:8080/company
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCJdLCJpYXQiOjE2NjA1MzA4NjgsImV4cCI6MTY2MDUzNDQ2OH0.pX8GnXlXE4m6iToUnJr2EyLGX6eQGqeTb0ug10UPgvR0GEEv003NaZLhRagK01391QJDgFa_CFfECDKQbQw5rQ
+Content-Type: application/json
+
+{
+  "ticker": "O"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCIsIlJPTEVfV1JJVEUiXSwiaWF0IjoxNjYwNTM4NzY1LCJleHAiOjE2NjA1NDIzNjV9.OeMrJdxuuXtDGUjozYJhZaamCrTQiN12dZNve7renUfu_PSvtOtM8mKL3rrZIEK7XjiYqTZsxQuuptcnIqO0BA
+Content-Type: application/json
+
+{
+  "ticker": "MMM"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "APP"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "SPY"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "NKE"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "T"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "AAPL"
+}
+
+### 회사 추가
+POST http://localhost:8080/company
+Content-Type: application/json
+
+{
+  "ticker": "QQQ"
+}
+
+### 회사 조회
+GET http://localhost:8080/company
+
+
+### 회사 조회 - 페이징
+GET http://localhost:8080/company?size=5&page=1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCJdLCJpYXQiOjE2NjA1MzA4NjgsImV4cCI6MTY2MDUzNDQ2OH0.pX8GnXlXE4m6iToUnJr2EyLGX6eQGqeTb0ug10UPgvR0GEEv003NaZLhRagK01391QJDgFa_CFfECDKQbQw5rQ
+
+
+### 배당금 조회
+GET http://localhost:8080/finance/dividend/3M Company
+
+
+### 자동완성 조회
+GET http://localhost:8080/company/autocomplete?keyword=A
+
+
+### 회사 삭제
+DELETE http://localhost:8080/company/MMM
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJncmFjZSIsInJvbGVzIjpbIlJPTEVfUkVBRCIsIlJPTEVfV1JJVEUiXSwiaWF0IjoxNjYwNTMxNTQ3LCJleHAiOjE2NjA1MzUxNDd9.4XeWf3k-f9KvT3s2ImtY5ObNPN3nuC-TDT4YLwqLjXT8zJnlXpqtFbc70q7v-RXrjXc9znkvS0Mn8-olfeoAEQ
